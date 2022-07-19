@@ -86,6 +86,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+.container-fluid{
+    width: 100%;
+}
+
 /* decorators */
 
 .--height100{
@@ -99,6 +103,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.text-blue{
+    color: #1f87e4;
 }
 
 .fa {
@@ -116,6 +124,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .fa-phone-flip{
     margin-left: 0;
+}
+
+.section-title-big{
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.section-subtitle{
+    margin-bottom: 11%;
+    font-size: 1.1rem;
 }
 
 /* Headline */
@@ -277,6 +297,33 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
 }
 
+/* about */
+
+.about__container{
+    display: flex;
+    color:#4a657d;
+}
+
+.about__photo-container{
+}
+
+.about__details-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-right: 15%;
+}
+
+.about-button{
+    width: 220px;
+    height: 60px;
+}
+
+.about__photo{
+    background-size: cover;
+}
 
 @media screen and (max-width: 1300px) {
     .fa {
@@ -341,6 +388,18 @@ h1, h2, h3, h4, h5, h6 {
     .headline__details-button_mobile{
         height: 60px;
         margin-left: 0;
+    }
+
+    /* about */
+
+    .about__photo-container{
+        display: none;
+    }
+
+    .about__details-container{
+        justify-content: center;
+        align-content: center;
+        padding: 7% 15%;
     }
 
 }
@@ -434,6 +493,13 @@ h1, h2, h3, h4, h5, h6 {
 
     /* banner */
 
+    .banner__button{
+        margin-top: 12%;
+    }
+
+    .banner__title{
+        margin-bottom: 12%;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -451,6 +517,10 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center;
     }
 
+    .navigation__logo{
+        margin: 3% 0;
+    }
+
     /* banner */
 
     .banner__arrow{
@@ -466,11 +536,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .banner__title{
-        margin-bottom: 7%;
         font-size: 3.2rem;
     }
 
-    .banner__button{
-        margin-top: 7%;
-    }
+    
 }
