@@ -829,4 +829,8 @@ section{
         width: 200px;
         padding: 5%;
     }
+
+    .choose-container{
+        padding: 30% 0;
+    }
 }
