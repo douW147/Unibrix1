@@ -375,6 +375,7 @@ section{
 .features__card:hover{
     transition: .1s linear;
     background-color:#1f87e4;
+    padding: 10%;
     color:#fff;
     position: relative;
     top: -42px;
@@ -423,6 +424,46 @@ section{
     margin-bottom: 16%;
 }
 
+/* areas */
+
+.areas{
+    color: #4a657d;
+}
+
+.areas__cards-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.areas__card-container{
+    width: 25%;
+}
+
+.areas__card{
+    width: 100%;
+    padding: 5%;
+}
+
+.areas__card-1{
+    padding-left: 0;
+}
+
+.areas__card-2{
+    padding-right: 0;
+}
+
+.areas__card-heading{
+    color:#1f87e4;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 3% 0 5%;
+}
+
+.areas__card-image{
+    width: 100%;
+}
 
 @media screen and (max-width: 1300px) {
     .fa {
@@ -511,6 +552,28 @@ section{
         width: 50%;
     }
 
+    /* areas */
+
+    .areas__card-container{
+        width: 50%;
+    }
+
+    .areas__card-1{
+        padding-left: 0;
+    }
+
+    .areas__card-3{
+        padding-left: 0;
+    }
+    
+    .areas__card-2{
+        padding-right: 0;
+    }
+
+    .areas__card-4{
+        padding-right: 0;
+    }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -547,7 +610,12 @@ section{
 
     .features__card-container{
         width: 100%;
-        padding: 0 10%;
+        padding: 0 15%;
+        margin-bottom: 9%;
+    }
+
+    .features__card:hover{
+        left: -4%;
     }
 
 }
@@ -627,6 +695,20 @@ section{
         padding: 0;
         margin-bottom: 10%;
     }
+
+    .features__card:hover{
+        left: -5%;
+    }
+
+    /* areas */
+
+    .areas__card-container{
+        width: 100%;
+    }
+
+    .areas__card{
+        padding: 8%
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -673,5 +755,9 @@ section{
         font-size: 3.2rem;
     }
 
-    
+    /* areas */
+
+    .areas__card{
+        padding: 3%
+    }
 }
